@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: skyblue; 
+  padding: 1em;
+  color: #F9F9F9;
+}
+
+
+
+article {
+  box-sizing: content-box;
+  border: .3em solid limegreen;
+}
+
+section {
+  padding-left: 1.5em;
+  padding-bottom: 1.25em;
+
+}
+
+nav{
+  text-align: center;
+}
+
+
+ul {
+  text-align: center;
+  font-weight: bold;
+  list-style: none;
+}
+
+li {
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: sans-serif;
+}
+
+a{
+    color: limegreen;
+}
+
+h1 {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.25em;
+}
+
+h2 {
+  padding-left: 1em;
+  padding-top: 1.25;
+  color: white;
+  font: 1.5em sans-serif;
+  font-weight: bolder;
+
+}
+p {
+  font-size: 1.1em;
+  font: kern;
+  line-height: 1.5em;
+  color: #F9F9F9;
+  padding-bottom: 1.25em;
+}
+
+img {
+  float: right;
+  width: 30%;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em;
+}
+
+.sans{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.purpleLine{
+  padding: 0px;
+  color: purple;
+  font-size: 1em;
+  font-weight: 200;
+}
