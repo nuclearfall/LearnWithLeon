@@ -23,8 +23,6 @@ body {
   color: #F9F9F9;
 }
 
-
-
 article {
   box-sizing: content-box;
   border: .3em solid limegreen;
@@ -39,7 +37,6 @@ section {
 nav{
   text-align: center;
 }
-
 
 ul {
   text-align: center;
@@ -96,6 +93,7 @@ img {
   font-family: sans-serif;
   font-weight: bold;
 }
+
 .purpleLine{
   padding: 0px;
   color: purple;
