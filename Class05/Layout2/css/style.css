@@ -1,0 +1,73 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+}
+
+body{
+	border: 0px;
+	padding-left: 10%;
+	padding-right:  10%;
+	padding-bottom:  30%;
+	margin:  0px;
+	height:  100%;
+	background-color: white;
+
+}
+#main_section{
+	height: 100%;
+	background-color:  lightgrey;
+	border: 1px solid darkgrey;
+}
+
+.clearFix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header, footer {
+	height:  5em;
+	border: 1px solid darkgrey;
+	width:  100%;
+	background-color:  lightgrey;
+}
+
+.topFloat section{
+	float:  left;
+	border: 1px solid darkgrey;
+	height:  10em;
+	width: 100%
+}
+
+
+#main_section .bottomLeft {
+	height:  15em;
+	width: 40%;
+	border: 1px solid darkgrey;
+}
+#main_section .bottomRight {
+	height:  15em;
+	width:  60%;
+	border: 1px solid darkgrey;
+}
+#main_section .bottomFloat section {
+	float: left;
+
+}
+
+
+
