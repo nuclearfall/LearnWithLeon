@@ -1,19 +1,19 @@
 *{	box-sizing:  border-box;}
 header, footer{
-	width: 100%;
-	height:  100px;
+	width: 96vw;
+	height:  10vh;
 	border:  1px solid greenyellow;
 	clear:  both;
 }
 
 section{
 
-	heigh: 300px;
+	heigh: 50vh;
 }
 
 div {
 	float: left;
-	width:  33.0%;
-	height: 300px;
+	width:  32vw;
+	height: 60vh;
 	border: 1px solid green
 }
